@@ -1,11 +1,30 @@
-/*Navbar styling*/
+@import url('https://fonts.googleapis.com/css?family=Galada|Raleway');
 
-.navbar {
-    background-color: black;
-
-}
 
 /*home page styling*/
+
+body {
+    background-color: #e3e3ff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar {
+    background-color: #676767;
+    border-radius: 0px;
+    border: 0px;
+}
+
+.navbar h1{
+    font-family: 'Galada', cursive;
+    color: white;
+    font-size: 5em;
+}
+
+/*-------------------main page*/
 
 .image {
     display: block;
@@ -14,6 +33,13 @@
     right: 0;
     width: 100%;
     height: auto;
+    border-radius: 8px;
+}
+
+.icon {
+    position: relative;
+    cursor: pointer;
+    /*padding-right: 0px;*/
 }
 
 .overlay {
@@ -23,16 +49,19 @@
     overflow: hidden;
     width: 100%;
     height: 0;
-    transition: .5s ease;
+    border-radius: 8px;
+    transition: .5s ease-in-out;
 }
 
 .icon:hover .overlay {
-    height: 50%;
+    height: 100px;
+
 }
 
 .text {
     color: white;
     font-size: 20px;
+    font-family: 'Raleway', sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,57 +72,8 @@
 
 .bottom {
     width: 100%;
-    background-color: #000;
+    background-color: #676767;
     height: 60px;
+    margin-top: 20px;
 }
 
-
-
-
-/*.cross {*/
-
-/*    height: 50vh;*/
-
-/*    width: 50%;*/
-
-/*float: left;*/
-
-/*}*/
-
-/*.cross img {*/
-
-/*display: ;*/
-
-/*    width: 100%;*/
-
-/*    height: auto;*/
-
-/*}*/
-
-/*.overlay {*/
-
-/*  position: absolute;*/
-
-/*  bottom: 0;*/
-
-/*  left: 0;*/
-
-/*  right: 0;*/
-
-/*  background-color: #008CBA;*/
-
-/*  overflow: hidden;*/
-
-/*  width: 100%;*/
-
-/*  height: 0;*/
-
-/*  transition: .5s ease;*/
-
-/*}*/
-
-/*.cross:hover .overlay {*/
-
-/*  height: 50%;*/
-
-/*}*/
