@@ -4,7 +4,7 @@
 /*home page styling*/
 
 body {
-    background-color: #D4E6F1;
+    background-color: #d4e6f1;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -31,7 +31,7 @@ body {
 
 .menu-bar {
     text-align: center;
-    
+
 }
 
 .menu-bar ul {
@@ -45,7 +45,6 @@ body {
 }
 
 /*.menu-bar .navbar-nav li */
-
 
 /*-------------------main page*/
 
@@ -117,7 +116,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 240px;
+    min-height: 180px;
 }
 
 .logo-grace {
@@ -149,13 +148,13 @@ body {
     padding-right: 40px;
     font-family: 'Raleway', sans-serif;
     border-left: 0.75px solid #676767;
-    min-height: 240px;
+    min-height: 180px;
 }
 
 .mini-bio {
     padding-left: 40px;
     padding-right: 40px;
-    min-height: 275px;
+    min-height: 335px;
     border-top: 0.75px solid #676767
 }
 
@@ -166,7 +165,7 @@ body {
     padding-right: 40px;
     border-top: 0.75px solid #676767;
     border-left: 0.75px solid #676767;
-    min-height: 275px;
+    min-height: 335px;
 }
 
 .bottom2 {
@@ -175,9 +174,37 @@ body {
     height: 50px;
 }
 
- @media (max-width: 768px) {
-.menu-bar .navbar-nav li {
-    display:block;
+/*-----------------media query*/
+
+@media (max-width: 768px) {
+    .menu-bar .navbar-nav li {
+        display: block;
+    }
+
 }
 
-    }
+/*-----------------video modal styling*/
+
+.videoclick {
+    /*margin: 20px;*/
+    border-radius: 5%;
+}
+
+.modal-content {
+    background-color: #9c9b9b;
+    border: 1px solid #676767;
+}
+
+.modal-content iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+.btn-default {
+    background-color: #9c9b9b;
+    color: #fff;
+}
+
+.btn-default:hover {
+    background-color: #d4e6f1;
+}
