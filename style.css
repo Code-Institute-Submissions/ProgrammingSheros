@@ -116,7 +116,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 180px;
+    min-height: 240px;
 }
 
 .logo-grace {
@@ -148,14 +148,22 @@ body {
     padding-right: 40px;
     font-family: 'Raleway', sans-serif;
     border-left: 0.75px solid #676767;
-    min-height: 180px;
+    min-height: 240px;
+}
+
+.quote .text-box {
+    padding-top: 3%;
 }
 
 .mini-bio {
     padding-left: 40px;
     padding-right: 40px;
-    min-height: 335px;
+    min-height: 275px;
     border-top: 0.75px solid #676767
+}
+
+.mini-bio .text-box {
+    padding-top: 10%;
 }
 
 .more-info {
@@ -165,7 +173,11 @@ body {
     padding-right: 40px;
     border-top: 0.75px solid #676767;
     border-left: 0.75px solid #676767;
-    min-height: 335px;
+    min-height: 275px;
+}
+
+.more-info .text-box {
+    padding-top: 5%;
 }
 
 .bottom2 {
@@ -203,8 +215,4 @@ body {
 .btn-default {
     background-color: #9c9b9b;
     color: #fff;
-}
-
-.btn-default:hover {
-    background-color: #d4e6f1;
 }

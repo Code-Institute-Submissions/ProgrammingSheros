@@ -9,4 +9,3 @@ $(document).ready(function() {
     $("#infoVideo").attr('src', url);
   });
 });
-

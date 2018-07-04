@@ -14,7 +14,7 @@
 <body>
     <nav class="navbar2 navbar-default2" id="nav2">
         <div class="container">
-                        <div class="row">
+            <div class="row">
                 <button type="button" class="navbar-toggle collapsed navbar-btn" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -34,33 +34,65 @@
         </div>
     </nav>
 
-<section class="container-fluid">
-    <div class="row">
-        <div class="col-sm-4 logo-jean"></div>
-        <div class="col-sm-8 quote">
-            <h2> Jean Jennigs Bartik</h2>
-            <p> "“I was told I’d never make it to VP rank because I was too outspoken. Maybe so, but I think men will always find an excuse for keeping women in their ‘place’. So, let’s make that place the executive suite and start more of our own companies.”"</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-4 brief mini-bio">
-            <h2>Mini-Bio</h2>
-            <p>Born :  1924 </p>
-            <p>Died :  2011 </p>
-            <p>Education :  Northwest Missouri State University & University of Pennsylvania </p>
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 logo-jean"></div>
+            <div class="col-sm-8 quote">
+                <div class="text-box">
+                    <h2> Jean Jennings Bartik</h2>
+                    <p> "“I was told I’d never make it to VP rank because I was too outspoken. Maybe so, but I think men will always find an excuse for keeping women in their ‘place’. So, let’s make that place the executive suite and start more of our own
+                        companies.”"
+                    </p>
+                </div>
             </div>
-        <div class="col-sm-8 more-info">
-            <h2> More Info </h2>
-            <p> Grace Hopper was one of the original programmers for the ENIAC computer. Following on from her schooling she worked at the University of Pennsylvania first manually calculating ballistics trajectories, then using ENIAC to do so.Together with Betty Holberton, Marlyn Wescoff, Kathleen McNulty, Ruth Teitelbaum, and Frances Spence, she was chosen to be one of the main programmers for the ENIAC.</p>
         </div>
-    </div>
-    
-</section>
+        <div class="row">
+            <div class="col-sm-4 brief mini-bio">
+                <div class="text-box">
+                    <h2>Mini-Bio</h2>
+                    <p>Born : 1924 </p>
+                    <p>Died : 2011 </p>
+                    <p>Education : Northwest Missouri State University & University of Pennsylvania </p>
+                </div>
+            </div>
+            <div class="col-sm-8 more-info">
+                <div class="text-box">
+                    <h2> More Info </h2>
+                    <p> Grace Hopper was one of the original programmers for the ENIAC computer. Following on from her schooling she worked at the University of Pennsylvania first manually calculating ballistics trajectories, then using ENIAC to do so. Together with Betty Holberton, Marlyn Wescoff, Kathleen McNulty, Ruth Teitelbaum, and Frances Spence, she was chosen to be one of the main programmers for the ENIAC.</p> <br>
+                        
+                        <!--inserting video modal here-->
+
+                    <div class="videoclick">
+                        <!-- Button HTML (to Trigger Modal) -->
+                        <a href="#myModal" class="btn btn-lg btn-default" data-toggle="modal">Play video</a>
+
+                        <!-- Modal HTML -->
+                        <div id="myModal" class="modal fade">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title">Women of the ENIAC</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe id="infoVideo" width="560" height="360" src="https://www.youtube.com/embed/_J7THWDSKFY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of video-->
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <div class="bottom2"></div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
