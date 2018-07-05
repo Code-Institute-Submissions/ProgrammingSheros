@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Galada|Raleway');
 
 
-/*home page styling*/
+/*-----------------media query*/
+
+@media (max-width: 768px) {
+    .menu-bar .navbar-nav li {
+        display: block;
+    }
+
+}
+
+/*-----------------home page*/
 
 body {
     background-color: #d4e6f1;
@@ -21,17 +30,12 @@ body {
 
 .navbar h1 {
     font-family: 'Galada', cursive;
-    color: white;
+    color: #fff;
     font-size: 5em;
 }
 
-.heading {
+#nav-text{
     text-align: center;
-}
-
-.menu-bar {
-    text-align: center;
-
 }
 
 .menu-bar ul {
@@ -43,10 +47,6 @@ body {
     display: inline-block;
     padding-right: 15px;
 }
-
-/*.menu-bar .navbar-nav li */
-
-/*-------------------main page*/
 
 .image {
     display: block;
@@ -94,7 +94,7 @@ body {
     text-align: center;
 }
 
-.bottom {
+.footer {
     width: 100%;
     background-color: #676767;
     height: 60px;
@@ -112,31 +112,22 @@ body {
 }
 
 .logo-ada {
-    background: url("images/Ada_Lovelace_corrected.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 240px;
+    background-image: url("images/Ada_Lovelace_corrected.jpg");
 }
 
 .logo-grace {
-    background: url("images/GHM_corrected.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 240px;
+    background-image: url("images/GHM_corrected.jpg");
 }
 
 .logo-jean {
-    background: url("images/jean_corrected.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 240px;
+    background-image: url("images/jean_corrected.jpg");
 }
 
 .logo-bletch {
-    background: url("images/bletchley_corrected.jpg");
+    background-image: url("images/bletchley_corrected.jpg");
+}
+
+.logo-size {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,18 +143,18 @@ body {
 }
 
 .quote .text-box {
-    padding-top: 3%;
+    padding-top: 40px;
 }
 
 .mini-bio {
     padding-left: 40px;
     padding-right: 40px;
     min-height: 275px;
-    border-top: 0.75px solid #676767
+    border-top: 0.75px solid #676767;
 }
 
 .mini-bio .text-box {
-    padding-top: 10%;
+    padding-top: 40px;
 }
 
 .more-info {
@@ -177,22 +168,18 @@ body {
 }
 
 .more-info .text-box {
-    padding-top: 5%;
+    padding-top: 40px;
 }
 
-.bottom2 {
+.footer2 {
     width: 100%;
     background-color: #676767;
     height: 50px;
+    padding: 15px;
 }
 
-/*-----------------media query*/
-
-@media (max-width: 768px) {
-    .menu-bar .navbar-nav li {
-        display: block;
-    }
-
+.footer2 .foot-text a {
+    color: #fff;
 }
 
 /*-----------------video modal styling*/
